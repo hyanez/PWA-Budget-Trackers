@@ -6,8 +6,6 @@ const FILES_TO_CACHE = [
   "/dist/manifest.json",
   "/dist/index.bundle.js",
   "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
-  //   "/dist/icons/icon-192x192.png",
-  //   "/dist/icons/icon-512x512.png",
 ];
 
 const STATIC_CACHE = "static-cache-v1";
