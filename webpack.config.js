@@ -3,9 +3,9 @@ const path = require("path");
 
 const config = {
   mode: "development",
-  entry: "./index.js",
+  entry: "./public/index.js",
   output: {
-    path: __dirname + "/dist",
+    path: __dirname + "/public/dist",
     filename: "index.bundle.js",
   },
   plugins: [
@@ -21,9 +21,9 @@ const config = {
       start_url: "/",
       icons: [
         {
-          src: path.resolve("/icons/icon-192x192.png"),
+          src: path.resolve("./public/icons/icon-192x192.png"),
           sizes: [192, 512],
-          destination: path.join("assets", "icons"),
+          destination: path.join("icons"),
         },
       ],
     }),
