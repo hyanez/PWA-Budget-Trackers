@@ -21,7 +21,7 @@ const config = {
       start_url: "/",
       icons: [
         {
-          src: path.resolve("/icons/icon-192x192.png"),
+          src: path.resolve(__dirname, "/icons/icon-192x192.png"),
           sizes: [192, 512],
           destination: path.join("icons"),
         },
