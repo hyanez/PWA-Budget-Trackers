@@ -23,7 +23,7 @@ const config = {
         {
           src: path.resolve("/icons/icon-192x192.png"),
           sizes: [192, 512],
-          destination: path.join("assets", "icons"),
+          destination: path.join("icons"),
         },
       ],
     }),
