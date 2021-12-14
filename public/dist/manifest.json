@@ -1,0 +1,22 @@
+{
+  "icons": [
+    {
+      "src": "/dist/icons/icon_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/dist/icons/icon_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Budget Tracker App",
+  "short_name": "Budget Tracker App",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "A fast and easy way to track their money, and allowing them to access that information anytime with offline functionality",
+  "background_color": "#01579b",
+  "theme_color": "#ffffff"
+}

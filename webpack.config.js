@@ -5,6 +5,7 @@ const config = {
   mode: "development",
   entry: "./public/index.js",
   output: {
+    publicPath: "/",
     path: __dirname + "/public/dist",
     filename: "index.bundle.js",
   },
@@ -21,9 +22,9 @@ const config = {
       start_url: "/",
       icons: [
         {
-          src: path.resolve("./public/icons/icon-192x192.png"),
+          src: path.resolve(__dirname, "./public/icons/icon-192x192.png"),
           sizes: [192, 512],
-          destination: path.join("icons"),
+          destination: path.join("dist", "icons"),
         },
       ],
     }),
